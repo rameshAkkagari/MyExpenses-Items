@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgb(165, 168, 171);
+    color: black;
+    height:70px;
+}
+
+
+th, td {
+    text-align: start;
+    padding: 10px;
+    border: 1px solid black;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.editexpenses{
+    cursor: pointer;
+}
+.editexpenses:hover{
+    color: greenyellow;
+}
+
+.deleteexpense:hover{
+   color: red;
+   cursor: pointer;
+}
